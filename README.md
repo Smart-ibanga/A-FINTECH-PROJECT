@@ -36,24 +36,14 @@ Open your web browser and navigate to the provided local server address.
 ### Project Structure
 The project's codebase is structured as follows:
 
-markdown
-Copy code
--
- src
-  -
- components: Contains reusable React components used throughout the application.
-  -
- pages: Includes the main page components for different sections (User and Admin).
-  -
- routes: Defines the route configuration and protected routes.
-  -
- services: Handles API requests, including user authentication using Axios.
-  -
- styles: Contains styling files, including CSS or styled-component files.
-  -
- App.js: The main entry point of the React application.
-  -
- index.js: Renders the React application into the DOM.
-  -
- ...
+- src
+  - components: Contains reusable React components used throughout the application.
+  - pages: Includes the main page components for different sections (User and Admin).
+  - routes: Defines the route configuration and protected routes.
+  - services: Handles API requests, including user authentication using Axios.
+  - styles: Contains styling files, including CSS or styled-component files.
+  - App.js: The main entry point of the React application.
+  - index.js: Renders the React application into the DOM.
+  - ...
+
 Feel free to explore the codebase to gain a deeper understanding of the project's implementation.
