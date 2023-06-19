@@ -24,6 +24,16 @@ Great emphasis is placed on providing the best possible styling to accurately re
 ### Interactivity Using ReactJS: 
 ReactJS is leveraged to enhance interactivity within the web application. Various components such as accordions, pagination, and other interactive elements are implemented to improve user engagement and navigation.
 
+# DESCRIPTION
+ The site was built through a collaborative work of front end and back end. Api was provided from the backend for the purpose of the project 
+
+ ## Preview
+  You can get A PREVIEW of the site by following the link below 
+  https://ethiope-fintech.vercel.app/login
+
+  email is black@gmail.com
+  password is bbbb
+  
 ## Getting Started
 To run the project locally, follow these steps:
 
