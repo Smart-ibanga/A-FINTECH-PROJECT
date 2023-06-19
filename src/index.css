@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;600&display=swap');
+
+/* -------------
+/* Reset         */
+/* --------------*/
+
+/* Box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+
+html,
+body,
+.root {
+  max-height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  font-family: 'Mukta';
+  font-style: normal;
+  max-height: 100vh;
+}
+
+ 
+
+.Alert{
+  color:#af0606;
+ text-align: center;
+}
+
+.error_msg {
+	width: 370px;
+	padding: 15px;
+	margin: 5px 0;
+	font-size: 14px;
+	background-color: #f34646;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+}
+
+@media only screen, (min-width: 768px)
+and (max-width: 1023px) {
+
+    /*------Form---------*/
+
+.form-data{
+  display: flex;
+  padding: 10px;
+ 
+}
+
+
+/* .login,
+.signup{
+  height: 100%;
+} */
+
+input {
+  display:block;
+  /* margin-bottom: 20px; */
+  /* border: #000000 0.05rem solid; */
+  border:none;
+  background: #dad9d9;
+  padding: 25px 36px;
+  border-radius: 50px;
+  width: 444px;
+
+}
+
+input[type="radio"] {
+ margin: unset;
+ width: 3rem;
+}
+
+
+
+.form h3,
+.login h3,
+.signup h3{
+  margin-bottom: 53px;
+  padding-top: 275px;
+  padding-left: 50px;
+  font-size: 48px;
+  color: #000000;
+}
+
+form {
+  padding-left: 2rem;
+  justify-content: flex-end;
+  /* margin-right: 2rem; */
+}
+
+label{
+  align-self: center;
+  margin-right: auto;
+  padding-right: 5%;
+}
+
+.home{
+  display:flex;
+}
+
+.Submit{
+  border-radius: 50px;
+  padding: 15px 50px;
+  background: #015FFF;
+}
+
+button{
+  background-color:#015FFF;
+  color: #FFFFFF;
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: none;
+}
+
+.gender{
+  margin-right: auto;
+  padding-right: 20%;
+}
+
+.login-link{
+  margin-top: 1rem;
+  color:#015FFF;
+ 
+ }
+
+
+}
+
+
+@media only screen and (max-width: 767px) {
+
+  /*------Form---------*/
+
+.form-data{
+  display: flex;
+  padding: 10px 0px;
+}
+
+input {
+  display:block;
+  /* margin-bottom: 20px; */
+  /* border: #000000 0.05rem solid; */
+  border:none;
+  background: #dad9d9;
+  padding: 15px 30px;
+  border-radius: 50px;
+  max-width: fit-content;
+ 
+ 
+}
+
+input[type="radio"] {
+ margin: unset;
+ width: 3rem;
+}
+
+
+.login,
+.signup{
+  height: 100%;
+  background-color: #FFFFFF;
+ 
+}
+
+.login{
+  max-width: 90%;
+
+}
+
+
+.form h3,
+.login h3,
+.signup h3{
+  margin-bottom: 2rem;
+  padding-top: 10%;
+  padding-left: 5%;
+  font-size: 2rem;
+  color: #000000;
+}
+
+form {
+  padding-left: 2rem;
+  justify-content: center;
+  /* margin-right: 1rem; */
+}
+
+label{
+  align-self: center;
+  margin-right: auto;
+  padding-right: 15px;
+}
+
+.home{
+  display:flex;
+}
+
+.Submit{
+  border-radius: 25px;
+  padding: .5rem 1rem;
+
+}
+
+button{
+  background-color:#015FFF;
+  color: #FFFFFF;
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: none;
+}
+
+.gender{
+  margin-right: auto;
+ 
+}
+
+.login-link{
+  margin-top: 1rem;
+  color:#015FFF;
+ 
+ }
+
+  
+}
+
+
+
+/*  
+.form{
+  height: 100%;
+  color: #FFFFFF;
+} */
+
+
+ /*------User Form---------*/
+ 
+ /* .form-data{
+  display: flex;
+}
+
+.form h3{
+  margin-bottom: 53px;
+  padding-top: 275px;
+  padding-left: 135px;
+  font-size: 48px;
+  color: #000000;
+}
+
+form {
+  padding-left: 126px;
+  justify-content: flex-end;
+
+}
+
+label{
+  align-self: center;
+ 
+}
+
+.home{
+  display:flex;
+}
+
+.Submit{
+  border-radius: 50px;
+  padding: 15px 50px;
+  background: #015FFF;
+}
+
+button{
+  color: #FFFFFF;
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: none;
+} */
+
+ /*------Use Form---------*/
+
+/* .form-data{
+  display: flex;
+  margin: 2rem;
+}
+
+.form h3{
+  margin-bottom: 53px;
+  padding-top: 275px;
+  padding-left: 135px;
+  font-size: 48px;
+  color: #000000;
+}
+
+
+form {
+  padding-left: 126px;
+  justify-content: flex-end;
+}
+
+
+label{
+  align-self: center;
+  margin-right: auto;
+
+}
+
+/* .circle{
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+} */
+
+/* .home{
+  display:flex;
+}
+
+.Submit{
+  border-radius: 50px;
+  padding: 15px 50px;
+  background: #015FFF;
+}
+
+button{
+  background-color:  #015FFF;
+  color: #FFFFFF;
+  padding: 15px 30px;
+  border-radius: 50px;
+  margin-right: auto;
+  border: none;
+}  */
+
+
+
+

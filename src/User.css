@@ -1,0 +1,1411 @@
+
+
+@media only screen, (min-width: 768px)
+and (max-width: 1023px) {
+
+    
+ .Navbar{
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  
+}
+
+.Navbar > div {
+  flex: 1;
+}
+
+.aside{
+  display: grid;
+
+}
+
+.aside .Logo-app {
+    padding-top: 51px ;
+    padding-left: 125px ;
+}
+
+.aside h3  {
+ 
+  padding-left:125px;
+  margin-right:200px;
+  /* padding-top: 208px; */
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 50px;
+  color: #FFFFFF;
+}
+
+
+
+.aside{
+  align-items: stretch;
+  max-height: 100%;
+  background: #015FFF;
+}
+
+.second h3{
+  margin-right:50px;
+  margin-bottom: 10px;
+  padding-top: 150px;
+}
+
+
+
+
+.link{
+  /* color:#015FFF; */
+  color:#FFFFFF;
+  margin-top: 20px;
+ }
+
+ 
+
+ /*--------Header--------*/
+
+ .backArrow{
+  margin-right: auto;
+  padding-left: 10%;
+
+}
+
+.header{
+  display:flex;
+  background-color: #ffffff;
+}
+
+.headerx{
+ display: flex;
+  background-color: #ffffff;
+  margin: 2em 0em;
+}
+
+.loanArrow{
+  display:flex
+}
+
+.goBack{
+  display:flex;
+  align-items: center;
+  margin-right:20%;
+}
+
+.goBack p{
+  font-size: 16px;
+  padding-right: 8px;
+}
+
+
+ 
+ /*----USER PAGE----*/
+ 
+ .user-logo {
+   padding-top: 51px ;
+   padding-left: 125px ;
+ }
+ 
+ 
+ .profileImage{
+   background: #015FFF;
+   padding: 35px;
+   margin-right: 15%;
+ }
+
+ .profileImage-menu{
+  background: #015FFF;
+  padding: 35px;
+  margin-right: 15%;
+}
+
+.layoutMobile{
+
+  display:none;
+  /* background:#015FFF;;
+   color: #ffffff; */
+}
+ 
+ .profile-photo{
+   margin-left: 90%;
+   background: #000;
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  margin-top: 0.5em;
+ }
+
+ .profile-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.profile-photo img:hover {
+  opacity: 0.7;
+}
+ 
+ /*---Sidebars----*/
+ .container{
+   display:grid;
+   grid-template-columns: 15% auto;
+   grid-template-rows: auto ;
+   /* min-width:1000px */
+ }
+
+ .header-mobile-grid{
+  display: none;
+}
+
+ .headerMobile2{
+  display: none;
+
+}
+
+ main{
+   width: 100%;
+   /* padding: 20px; */
+ }
+ .sidebar{
+ 
+  grid-row: 1/4;
+  background: #015FFF;
+  color: #ffffff;
+  transition: all 0.5s;
+
+ }
+
+ .header-grid{
+  grid-column: 2/4;
+ }
+
+
+ 
+/*  
+ .side-flex{
+   margin-left:10%;
+ } */
+ 
+ .top_section{
+   display:grid;
+   margin: auto;
+   align-items:center;
+   padding:0px 0px;
+ }
+ 
+
+ 
+ .bars{
+  margin: auto;
+   padding: 0rem 0 4rem;
+   color: #FFFFFF;
+ }
+
+ .hamburger{
+    margin: auto;
+ }
+ 
+ .side-menu{
+   display:block;
+   color: #fff;
+   padding: 1.5rem; 
+   margin: 0 auto;
+   gap: 15px;
+   transition: all 0.5s;
+   
+ }
+ 
+ .icon, .link_text{
+   font-size: 20px;
+   margin: auto;
+   
+ }
+
+ .link_text {
+   text-align: center;
+   padding: 1.5rem; 
+ }
+ 
+ /*-------Home------------*/
+ .circle{
+   height: 29%;
+   width: 29%;
+   background-color: #015FFF;
+   color: #FFFFFF;
+   border-radius: 50%;
+   display: inline-block;
+   margin: 2%;
+   
+ }
+ 
+ 
+ /* .link {
+   color: #FFF;
+ }
+ link:hover {
+    color: #00F
+ } */
+ 
+ 
+ 
+ .linkCircle {
+  color: #FFF;
+} 
+
+ .circle-options {
+
+   width: 60%;
+   margin:  auto;
+   justify-content: center;
+   padding: 0 5%;
+ }
+ 
+  span p {
+   padding: 3.5rem 2rem;
+   text-align: center;
+ }
+
+ .side-flex{
+  display: grid;
+  
+    width: 90%;
+
+ }
+ 
+ .loans {
+   width: 70%;
+   height: 300px;
+   background: #015FFF;
+   margin: 7% auto;
+   border-radius: 2%;
+   
+ }
+ 
+ 
+ .loans h1 {
+   font-size: 100px;
+   color: #FFFFFF;
+   padding-left: 75px;
+   margin: 0px;
+  
+ } 
+ 
+ .loan-top{
+   display: flex;
+   color: #FFFFFF;
+   padding-left: 4%;
+   padding-top: 5%;
+   align-items: center;
+ 
+ }
+ 
+ .loan-top h3{
+   margin-right: auto;
+   font-size: 2rem;
+ }
+ 
+ .right-arrow{
+   display: flex;
+   font-size: 10px;
+   align-self: center;
+   padding-right: 7%;
+ }
+  
+ .arrow{
+   width: 20px;
+   height: 18px;
+ }
+ 
+ 
+ .loan-bottom{
+   display: flex;
+   font-size: 10px;
+   color: #FFFFFF;
+ 
+ }
+ 
+ .loan-title{
+   padding-left: 3%;
+   margin-right: auto;
+ }
+ 
+ .loan-title-right{
+   margin-right: 10%;
+ }
+/*  
+ .top-right-arrow .link{
+   margin-right: 5px;
+   display: block;
+ }
+  */
+ /*------LOANS------*/
+ .salary-loans{
+   padding-left: 90px;
+ }
+ 
+ .salary-loans h3{
+   font-size: 36px;
+   padding-top: 60px;
+   color:#ffffff;
+ }
+ 
+ .collateral-loan h3 {
+   font-size: 36px;
+   padding-top: 60px;
+   color:#ffffff;
+ }
+ 
+ .collateral-loan{
+   
+  width: 70%;
+  height: 300px;
+  background: #FBC802;
+  margin: 10% auto;
+  padding-left: 10%;
+  border-radius: 3%;
+
+ }
+ 
+ .collateral-loan p{
+   color:#ffffff;
+ }
+ 
+ .salary-loans {
+   width: 748px;
+   height: 300px;
+   background: #00AE7D;
+   margin-left: 196px;
+   margin-top: 70px;
+   border-radius: 2%;
+ }
+ 
+ .salary-loans p{
+   color:#ffffff;
+ }
+ 
+ .getLoanA{
+   color:#015FFF ;
+   background-color:#ffffff;
+   margin-top: 60px;
+ }
+ 
+ .getLoanB{
+   color:#000000 ;
+   background-color:#ffffff;
+   margin-top: 60px;
+ }
+ /*---------PROFILE---------*/
+ 
+ .profile{
+   display: flex;
+   /* margin:auto 250px; */
+   align-items: center;
+   margin-left: 30%;
+   margin-bottom: 5%;
+   
+ }
+ 
+ .profile-button{
+   margin-right: 10px;
+   background: #000;
+   width: 10em;
+   height: 10em;
+   border-radius: 50%;
+   margin-top: 0.5em;
+ }
+
+
+
+.profile-button img {
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ border-radius: 50%;
+ cursor: pointer;
+}
+
+.profile-button img:hover {
+ opacity: 0.7;
+}
+ 
+ #profilePhotoInput {
+   display: none;
+ }
+ 
+ form .profile-button{
+  margin: auto;
+ }
+ 
+ .profile-menu{
+  display: flex;
+}
+
+.profile-details{
+   margin: 5% auto;
+}
+
+.header-space{
+  align-items: stretch;
+  background:#015FFF;
+}
+
+.profilePhotoLabel{
+  margin:0px ;
+}
+
+.profileInput{
+  margin-left: 2rem;
+}
+
+.saveProfile button{
+  margin: 0.5rem;
+  width: 10rem;
+}
+
+.saveProfile{
+  margin-left: auto;
+
+}
+
+.profileBio h3{
+  font-size: 1.5rem;
+}
+
+.profileBio h4{
+  font-size: 1 rem;
+  color: #27D24D;
+}
+
+.profileBio p{
+  font-size: 0.4 rem;
+}
+
+.bank-profile{
+  margin: 3rem auto;
+}
+
+.id-card{
+  display: flex;
+} 
+
+
+
+ 
+ /*-----Loans history----------*/
+ 
+ .loans-history {
+  width: 70%;
+  height: 300px;
+  background: #FBC802;
+  margin: 7% auto;
+  padding-left: 4%;
+  border-radius: 3%;
+ 
+ }
+
+ .loan-history-status{               
+  display:flex;
+  justify-content:space-around;
+  align-items: center;
+}
+ 
+.loan-data-details{
+  margin: auto;
+  width: 80%;
+  padding: 0 8%;
+}
+
+.loan-history-data {
+  display: flex;
+  margin: auto;
+
+}
+
+.loan-history {
+  margin-right: 1.5rem;
+  align-self: center;
+  background-color: #999999;
+  color: #1b1919;
+  padding: .8rem 5%;
+  width: 80%;
+  border-radius: 2rem;
+  
+}
+
+  
+.loan-status{
+  width: 9rem;
+  justify-items: center;
+  background: #27D24D;
+  color: #1b1919;
+  border-radius: 1rem ;
+  padding: .8rem 5%;
+  font-size: 1rem;
+  align-items: center;
+
+}
+
+.loan-status p {
+  margin: auto;
+}
+
+.loan-history-status h4{
+  font-size: 2rem;
+}
+
+/* .loan-history-status p{
+  align-self: center;
+} */
+ 
+ 
+ 
+ 
+ .loans-history h1 {
+   font-size: 100px;
+   color: #FFFFFF;
+   padding-left: 2%;
+   margin: 0px;
+ }
+ 
+ .history-form {
+   display: flex;
+   justify-content: center;
+ }
+ 
+ 
+ .status-history{
+   width: 222px;
+   background: #27d24d;
+ }
+ 
+ 
+ .history-form {
+   margin-top: 30px;
+   
+ }
+ 
+ .salary-loan-history {
+   margin-right: 20px;
+   align-self: center;
+ }
+ 
+ /* .salary-loan-history h4, .history-input p {
+   margin-bottom: 30px ;
+   margin-left: 50px;
+ } */
+ 
+ .salary-loan-history h4 {
+    font-size: 30px;
+ }
+ 
+ .history-input{
+   align-self: center;
+ }
+ 
+ 
+ /* .salary-loan-history label{
+   font-size: 25px;
+ } */
+ 
+ /*---------HELP---------*/
+ 
+ .help-menu{
+ 
+  padding-top: 2rem;
+  width: 70%;
+  margin: 10% auto;
+ }
+ 
+ .help-image-text {
+   display: flex;
+   align-items: center;
+ }
+ 
+ .help h3{
+   margin-top: 50px;
+ }
+ 
+ .help-text{
+   margin-right:auto;
+   font-size: 1em;
+   
+   
+ }
+ 
+ .help-text h3{
+   font-size: 2.5em;
+   line-height: 2rem;
+ }
+ 
+ .help-image{
+   /* padding-left: 30px; */
+   width: 40%;
+ }
+ 
+ .arrow-toggle i{
+  color: #015FFF;
+ }
+
+ .help-image img{
+  width: 100%;
+ }
+ 
+ .questions{
+   display: flex;
+ }
+
+ .accordion {
+  max-width: 400px;
+  margin: 2rem 0rem;
+
+}
+
+.accordion-item{
+  margin: 3rem 0rem ;
+}
+
+.questions{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.asked-question{
+  font-size: 1.3rem;
+}
+
+ /*---------------------------LOANS AMOUNT---------------------------------------*/
+
+ .loansAmount,
+ .loanPersonal,
+ .loanBvn,
+ .loanValid-id,
+ .loanCollateral,
+ .profile1,
+ .loanGuarantor,
+ .bank,
+ .createloan
+ {
+    margin: auto;
+    
+ }
+
+
+
+
+
+
+ .loansAmount,
+ .bank
+ {
+  display: grid;
+  width: 90%;
+
+ }
+
+ .profile1,
+ .get-a-loan,
+ .valid-bank
+ {
+  padding-top: 1.5rem;
+  width: 70%;
+  margin: 10% auto;
+   
+ }
+ 
+
+
+
+}
+
+@media only screen and (max-width: 767px) {
+
+   /*--------Header--------*/
+
+ .backArrow{
+  margin-right: auto;
+  padding-left: 10%;
+
+}
+
+.header{
+  display:flex;
+  background-color: #ffffff;
+  align-items: center;
+}
+
+.headerx{
+ display: flex;
+  background-color: #ffffff;
+  margin: 2em 0em;
+}
+
+.loanArrow{
+  display:flex
+}
+
+.goBack{
+  display:flex;
+  align-items: center;
+  margin-right:20%;
+}
+
+.goBack p{
+  font-size: 16px;
+  padding-right: 8px;
+}
+
+
+
+
+  .Navbar{
+    display: grid;
+    max-width: 100%;
+
+  }
+
+  .aside{
+    display: grid;
+    max-height: stretch;
+    background: #015FFF;
+    max-width: fit-content;
+   
+  }
+   
+ .aside .Logo-app {
+  padding-top: 5%;
+  padding-left: 14% ;
+  max-width: 32%;
+  
+}
+
+.headerMobile{
+  display:none;
+}
+
+.headerMobile2{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-row: 1/4;
+
+}
+
+.aside h3  {
+  
+  padding-left:6rem;
+  margin-right:4rem;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 50px;
+  color: #FFFFFF;
+}
+
+.Fin-image{
+ max-width: 60%;
+ margin: 0 auto;
+
+}
+
+ /*----USER PAGE----*/
+ 
+ .user-logo {
+  padding-top: 0px;
+  padding-left: 0px ;
+  width: 20vw;
+}
+
+
+.profileImage{
+  background: #015FFF;
+  padding: 35px;
+  margin-right: none;
+  align-self: center;
+}
+
+.profileImage-menu{
+ background:0px;
+ padding: 0px;
+ margin-right: 0px;
+
+}
+
+.layoutMobile{
+  display:none;
+ background:#015FFF;;
+  color: #ffffff;
+}
+
+.profile-photo{
+  margin-left: 0;
+  background: #000;
+ width: 3.5em;
+ height: 3.5em;
+ border-radius: 50%;
+ margin-top: 0.5em;
+}
+
+.profile-photo img {
+ width: 100%;
+ height: unset;
+ object-fit: cover;
+ border-radius: 50%;
+ cursor: pointer;
+}
+
+.profile-photo img:hover {
+ opacity: 0.7;
+}
+
+/*---Sidebars----*/
+.container{
+  display:grid;
+  grid-template-columns: 10% auto;
+  grid-template-rows: 10% auto ;
+}
+
+main{
+  width: 100%;
+  /* padding: 20px; */
+}
+
+.sidebar{
+
+ grid-template-columns:none;
+ background:#015FFF;
+ color:#015FFF;
+ height:100%;
+  grid-row:1/4;
+  grid-column:1/2;
+  width: fit-content;
+  transition: all 0.5s;
+
+}
+
+
+.header-grid{
+
+  grid-column: 2/4;
+  grid-template-columns: 70%;
+  grid-template-rows: auto;
+  margin: 0 auto;
+   
+  /* display:grid;
+  max-width: 90%;
+  margin: 0 auto;
+  max-height: fit-content; */
+}
+
+.header-mobile-grid{
+  display: contents;
+  width:70%;
+}
+
+
+
+ .side-menu{
+  display: grid;
+  color: #fff;
+  padding: 0 ; 
+  margin:  3rem 0 ;
+  gap: unset;
+  transition: all 0.5s;
+  cursor: pointer;
+  
+} 
+
+/* 
+.sidebar{
+   
+  background:#015FFF;
+  color: #ffffff;
+  height: 10%;
+  flex: 0;
+  transition: all 0.5s;
+}  */
+
+
+/*  
+.side-flex{
+  margin-left:10%;
+} */
+
+.top_section{
+  align-items:center;
+  padding: .5rem 0rem 4rem ;
+}
+
+
+.bars{
+  margin:  auto;
+  padding:2rem 0 2rem;
+  color:#FFFFFF;
+
+}
+
+/* .side-menu{
+  display: flex;
+  color: #fff;
+  padding: unset; 
+  margin: 0 0 2rem 0 ;
+  gap: 15px;
+  transition: all 0.5s;
+  cursor: pointer;
+  
+}   */
+
+.icon-A, .link_text{
+  font-size: 1rem;
+  margin: auto;
+ 
+  color: #FFFFFF;
+}
+
+.icon-A img{
+  width: 1.2rem;
+  
+}
+
+.side-menu img{
+  width: 1.2rem;
+  
+}
+
+
+/*-------Home------------*/
+.circle{
+  height: 19vw;
+  width: 19vw;
+  background-color: #015FFF;
+  color: #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: unset;
+  
+  
+}
+
+
+.linkCircle {
+  color: #FFF;
+} 
+
+/* link:hover {
+   color: #00F
+} */ 
+
+
+.circle-options {
+  display: flex;
+  margin: 19vw auto;
+  justify-content: space-around;
+}
+
+
+span p {
+  padding: 1em 0;
+  text-align: center;
+  font-size: 1em;
+}
+
+.side-flex {
+  grid-row: 2/4;
+  display: grid;
+  width: 100%;
+}
+
+.loans {
+  /* max-width: 70vw; */
+  height: 40vw;
+  background: #015FFF;
+  width: 100%;
+  justify-self: center;
+  border-radius: 5%;
+}
+
+
+.loans h1 {
+  font-size: 2.3rem;
+  color: #FFFFFF;
+  padding-left:5%;
+  margin: 0px;
+ 
+} 
+
+.loan-top{
+  display: flex;
+  color: #FFFFFF;
+  padding-left: 5%;
+  padding-top: 10%;
+  align-items: center;
+ 
+}
+
+.loan-top h3{
+  margin-right: auto;
+  font-size: 1rem;
+}
+
+.right-arrow{
+  display: flex;
+  font-size: 10px;
+  align-self: center;
+  padding-right: 0.5rem;
+  
+}
+
+.link{
+
+  color:#FFFFFF;
+  margin-top: unset;
+ }
+
+
+
+.arrow{
+  width: 1rem;
+  height: 1rem;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+/* a:hover {
+  background-color: #ddd;
+  color: black;
+} */
+
+.loan-bottom{
+  display: flex;
+  font-size: 0.6em;
+  color: #FFFFFF;
+   padding: 2em;
+  
+}
+
+.loan-title{
+  padding-left: 0;
+  margin-right: auto;
+  
+}
+
+.loan-title-right{
+  margin-right: 0px;
+}
+/*  
+.top-right-arrow .link{
+  margin-right: 5px;
+  display: block;
+}
+ */
+/*------LOANS------*/
+.salary-loans{
+  padding-left: 90px;
+}
+
+.salary-loans h3{
+  font-size: 1rem;
+  padding-top: 60px;
+  color:#ffffff;
+}
+
+.collateral-loan h3 {
+
+font-size: 1.5rem;
+color: #FFFFFF;
+padding-left: 2%;
+padding-top: 10%;
+align-items: center;
+
+
+  /* font-size: 1.5rem;
+  padding-top: 2rem;
+  color:#ffffff; */
+}
+
+.collateral-loan{
+
+  /* max-width: 70vw; */
+  height: 40vw; 
+  background: #FBC802;
+  width: 130%;
+  justify-self: center;
+  border-radius: 2%;
+
+
+
+  /* margin-top: 60px;
+  margin-bottom: 60px;
+  width: 75%;
+  height: 40%;
+  background: #FBC802;
+  margin-left: 10%;
+  padding-left: 55;
+  border-radius: 2.5%; */
+}
+
+.collateral-loan p{
+  color:#ffffff;
+}
+
+.salary-loans {
+  width: 748px;
+  height: 300px;
+  background: #00AE7D;
+  margin-left: 196px;
+  margin-top: 70px;
+  border-radius: 2%;
+}
+
+.salary-loans p{
+  color:#ffffff;
+}
+
+.getLoanA{
+  color:#015FFF ;
+  background-color:#ffffff;
+  margin-top: 60px;
+}
+
+.getLoanB{
+  color:#000000 ;
+  background-color:#ffffff;
+  margin-top: 20%;
+  padding: 3%;
+}
+/*---------PROFILE---------*/
+
+.profile{
+  display: flex;
+  /* margin:auto 250px; */
+  align-items: center;
+  margin-left: 30%;
+  margin-bottom: 5%;
+  
+}
+
+.profile-button{
+  margin-right: 10px;
+  background: #000;
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  margin-top: 0.5em;
+}
+
+
+
+.profile-button img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 50%;
+cursor: pointer;
+}
+
+.profile-button img:hover {
+opacity: 0.7;
+}
+
+#profilePhotoInput {
+  display: none;
+}
+
+form .profile-button{
+ margin: auto;
+}
+
+.profile-menu{
+ display: flex;
+}
+
+.profile-details{
+  margin: 5% auto;
+}
+
+.header-space{
+ align-items: stretch;
+ background:#015FFF;
+}
+
+.profilePhotoLabel{
+ margin:0px ;
+}
+
+.profileInput{
+ margin-left: 2rem;
+}
+
+.saveProfile button{
+ margin: 0.5rem;
+ width: 10rem;
+}
+
+.saveProfile{
+ margin-left: auto;
+
+}
+
+.profileBio h3{
+ font-size: 1.5rem;
+}
+
+.profileBio h4{
+ font-size: 1 rem;
+ color: #27D24D;
+}
+
+.profileBio p{
+ font-size: 0.4 rem;
+}
+
+.bank-profile{
+ margin: 3rem auto;
+}
+
+.id-card{
+ display: flex;
+} 
+
+
+
+
+/*-----Loans history----------*/
+
+.loans-history {
+  width: 748px;
+  height: 300px;
+  background: #00AE7D;
+  margin-left: 196px;
+  margin-top: 70px;
+  border-radius: 2%;
+
+}
+
+.history-status{
+  display:flex;
+  justify-content:space-around;
+  margin-top:50px;
+}
+
+.history-status h4{
+  font-size: 30px;
+}
+
+.history-status p{
+  align-self: center;
+}
+
+
+.loans-history h1 {
+  font-size: 100px;
+  color: #FFFFFF;
+  padding-left: 75px;
+  margin: 0px;
+}
+
+.history-form {
+  display: flex;
+  justify-content: center;
+}
+
+
+.status-history{
+  width: 222px;
+  background: #27d24d;
+}
+
+
+.history-form {
+  margin-top: 30px;
+}
+
+.salary-loan-history {
+  margin-right: 20px;
+  align-self: center;
+}
+
+/* .salary-loan-history h4, .history-input p {
+  margin-bottom: 30px ;
+  margin-left: 50px;
+} */
+
+.salary-loan-history h4 {
+   font-size: 30px;
+}
+
+.history-input{
+  align-self: center;
+}
+
+
+/* .salary-loan-history label{
+  font-size: 25px;
+} */
+
+/*---------HELP---------*/
+
+.help{
+  margin: 100px 200px;
+}
+
+.help-image-text {
+  display: flex;
+}
+
+.help h3{
+  margin-top: 50px;
+}
+
+.help-text{
+  margin:auto;
+  /* margin-left: auto; */
+}
+
+.help-text h3{
+  font-size: 48px;
+  line-height: 90px;
+}
+
+.help-image{
+  padding-left: 30px;
+}
+
+.arrow-toggle i{
+ color: #015FFF;
+}
+
+.questions{
+  display: flex;
+}
+
+.accordion {
+ max-width: 400px;
+ margin: 2rem 0rem;
+
+}
+
+.accordion-item{
+ margin: 3rem 0rem ;
+}
+
+.questions{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ cursor: pointer;
+}
+
+.asked-question{
+ font-size: 1.3rem;
+}
+
+  
+}
+
+
+
